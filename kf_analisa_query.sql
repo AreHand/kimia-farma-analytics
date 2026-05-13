@@ -1,6 +1,6 @@
 -- ================================================
 -- PROJECT  : Kimia Farma Big Data Analytics
--- AUTHOR   : [Nama Kamu]
+-- AUTHOR   : Dwi Farhan
 -- DATE     : 2026
 -- DESC     : Query pembuatan tabel analisa
 -- ================================================
