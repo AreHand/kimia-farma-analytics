@@ -1,2 +1,53 @@
-# kimia-farma-analytics
-Big Data Analytics - Kimia Farma Performance 2020-2023
+# 🏥 Kimia Farma Big Data Analytics
+**Project Performance Analytics 2020–2023**
+
+---
+
+## 📌 Deskripsi
+Project ini merupakan bagian dari program Big Data Analytics Internship 
+di Kimia Farma. Tujuannya adalah mengevaluasi kinerja bisnis 
+Kimia Farma dari tahun 2020 hingga 2023 menggunakan BigQuery.
+
+---
+
+## 🗂️ Dataset
+| Tabel | Keterangan |
+|---|---|
+| kf_final_transaction | Data seluruh transaksi |
+| kf_inventory | Data inventaris produk |
+| kf_kantor_cabang | Data cabang Kimia Farma |
+| kf_product | Data produk & harga |
+
+---
+
+## 🔧 Tools
+- Google BigQuery
+- SQL
+
+---
+
+## 📊 Tabel Analisa: `kf_analisa`
+Tabel hasil agregasi dari 4 tabel di atas.
+
+**Kolom utama:**
+- `transaction_id` — Kode transaksi
+- `nett_sales` — Harga setelah diskon
+- `nett_profit` — Keuntungan Kimia Farma
+- `persentase_gross_laba` — Margin laba berdasarkan harga produk
+- `rating_cabang` — Penilaian konsumen terhadap cabang
+- `rating_transaksi` — Penilaian konsumen terhadap transaksi
+
+**Total data:** 672.458 transaksi ✅
+
+---
+
+## 📁 File
+| File | Keterangan |
+|---|---|
+| `kf_analisa_query.sql` | Query pembuatan tabel analisa |
+
+---
+
+## 👤 Author
+Nama  : Dwi Farhan  
+Batch : Batch May 2026
