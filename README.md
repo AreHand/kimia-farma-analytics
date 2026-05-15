@@ -48,6 +48,25 @@ Tabel hasil agregasi dari 4 tabel di atas.
 
 ---
 
+## 🔍 Key Insights
+
+| # | Insight | Data |
+|---|---------|------|
+| 💰 | Total Nett Sales 2020–2023 | **Rp 347 Miliar** |
+| 📈 | Pertumbuhan pendapatan | **~4x lipat** (2020→2023) |
+| 🏆 | Provinsi revenue terbesar | **Jawa Barat — Rp 102M (30%)** |
+| ⭐ | Avg Rating Cabang | **4.45 / 5** |
+| 📊 | Volume transaksi | **~168.000/tahun (stabil)** |
+| ⚠️ | Gap rating cabang vs transaksi | **Subang 4.62 vs 4.0** |
+| 🗺️ | Potensi ekspansi | **Luar Jawa masih underpenetrated** |
+
+---
+
+## 📊 Dashboard
+🔗 [Lihat Dashboard Looker Studio](https://datastudio.google.com/reporting/e6ad5f27-9177-4dfa-ba68-8885c4b44172)
+
+---
+
 ## 👤 Author
 Nama  : Dwi Farhan  
 Batch : Batch May 2026
