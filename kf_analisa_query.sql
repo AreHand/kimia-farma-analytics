@@ -2,7 +2,7 @@
 -- PROJECT  : Kimia Farma Big Data Analytics
 -- AUTHOR   : Dwi Farhan
 -- DATE     : 2026
--- DESC     : Query pembuatan tabel analisa
+-- DESC     : Query for Creating an Analysis Table
 -- ================================================
 
 CREATE OR REPLACE TABLE kimia_farma.kf_analisa AS
@@ -20,7 +20,7 @@ SELECT
     p.price           AS actual_price,
     ft.discount_percentage,
 
-    -- Persentase Gross Laba berdasarkan harga
+    -- Gross Profit Percentage Based on Price
     CASE
         WHEN p.price <= 50000                        THEN 0.10
         WHEN p.price > 50000  AND p.price <= 100000  THEN 0.15
@@ -29,11 +29,11 @@ SELECT
         WHEN p.price > 500000                        THEN 0.30
     END AS persentase_gross_laba,
 
-    -- Nett Sales: harga setelah diskon
+    -- Nett Sales: Price After Discount
     ROUND(p.price * (1 - ft.discount_percentage / 100), 2)
         AS nett_sales,
 
-    -- Nett Profit: keuntungan Kimia Farma
+    -- Nett Profit: Kimia Farma's Profit
     ROUND(
         p.price * (1 - ft.discount_percentage / 100) *
         CASE
